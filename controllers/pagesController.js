@@ -10,6 +10,12 @@ const getRegister = (req, res) => {
 const getDashboard = (req, res) => {
     res.render('dashboard');
 }
+const getKorean = (req, res) => {
+    res.render('korean');
+}
+const logout = (req, res) => {
+    res.render('login');
+}
 const login = (req, res) => {
     const systemAccountNumber = '909188126';
     const systemPassword = "Leeseo1234!";
@@ -33,5 +39,7 @@ module.exports = {
     getLogin,
     getRegister,
     login,
-    getDashboard
+    logout,
+    getDashboard,
+    getKorean
 };
