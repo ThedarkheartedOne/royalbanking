@@ -845,9 +845,15 @@ html{
         border: none;
         display: block;
         margin:1rem auto;
-
         border-radius: 3px;
         font-family: thirdFont;
         padding:10px 16px;
     }       
+}
+@media (min-width:721px ) {
+    body{
+        display: none;
+    }
+    
+
 }
